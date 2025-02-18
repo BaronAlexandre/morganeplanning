@@ -6,12 +6,8 @@ import datetime
 reader = easyocr.Reader(['fr']) 
 
 # Lire le texte de l'image
-result = reader.readtext('capture2.jpg')
+result = reader.readtext('capture.jpg')
 texte_extrait = [item[1] for item in result]
-# Ouvrir et lire le fichier texte contenant le texte extrait
-# Charger le fichier
-# with open('temp.txt', 'r', encoding='utf-8') as f:
-#     texte_extrait = f.readlines()
 
 # Les jours de la semaine dans l'ordre
 pattern_vacances = r'(r(\.)?h)|((r|p)cdj)'
