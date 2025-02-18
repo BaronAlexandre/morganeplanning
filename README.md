@@ -1,1 +1,1 @@
-Projet de génération de planning à partir d'une image 
+Projet de génération de planning à partir d'une image avec ocr en python
