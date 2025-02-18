@@ -1,1 +1,1 @@
-Projet de g‚n‚ration de planning … partir d'une image 
+Projet de gÃ©nÃ©ration de planning Ã  partir d'une image 
